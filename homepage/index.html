@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Muhammet Sahin</title>
+
+        <script>
+            function checkGuess(guess) {
+                if (guess === "Yu-Gi-Oh!") {
+                    alert("Correct! Go to the Hobbies Tab to know more about it.");
+                }
+                else {
+                    alert("Incorrect! Try again");
+                }
+            }
+        </script>
+
+    </head>
+    <body>
+        <header><h1>My Introduction</h1></header>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #333;">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Index</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hobbies.html">Hobbies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+        <h2 class = "centered">Name: Muhammet Mustafa Sahin</h2>
+        <h2 class = "centered">Let's play a little quiz: What could my Hobby be?</h2>
+        <table class = "centered">
+            <tr>
+                    <th><button type="button" onclick="checkGuess('Yu-Gi-Oh!')">Yu-Gi-Oh!</button></th>
+                    <th><button type="button" onclick="checkGuess('Chess')">Chess</button></th>
+                    <th><button type="button" onclick="checkGuess('Soccer')">Soccer</button></th>
+                    <th><button type="button" onclick="checkGuess('Swimming')">Swimming</button></th>
+            </tr>
+        </table>
+        <footer>Use muhammet.sahin@gmx.net to contact me.</footer>
+    </body>
+</html>

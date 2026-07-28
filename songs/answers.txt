@@ -1,0 +1,6 @@
+Question nr. 1:
+    The aura would be a the colours of all Auras together. These songs are all diverse by themselves. The loudness, energy, danceability and so on are so different from the others.
+
+Question nr. 2:
+    A better way (in my opinion) would be a way of ranking the several aspects. For e.g. tempo should be valued more than danceability -> danceability should be valued more than loudness and so on.
+    This would give you a better view how to rank the preferences of the user and maybe suggest the user more songs which have a higher tempo because the user likes to hear high tempo songs.
